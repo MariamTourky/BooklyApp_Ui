@@ -1,0 +1,27 @@
+---
+name: bookly_mvvm
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: null
+  cupertino_icons: ^1.0.2
+  font_awesome_icon_class:
+  google_fonts: ^6.2.0
+  go_router: ^14.2.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
+  fonts:
+    - family: GT Sectra Fine
+      fonts:
+        - asset: assets/fonts/GT Sectra Fine Regular.ttf
