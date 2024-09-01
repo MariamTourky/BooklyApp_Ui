@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../../../../../core/utils/Styles.dart';
 import 'CustomSearchTextField.dart';
+import 'SearchResultListView.dart';
 
 class SearchViewBody extends StatelessWidget {
   const SearchViewBody({super.key});
@@ -25,9 +26,9 @@ class SearchViewBody extends StatelessWidget {
          SizedBox(
            height: 16,
          ),
-         // Expanded(
-         //   child: SearchResultListView(),
-         // ),
+         Expanded(
+           child: SearchResultListView(),
+         ),
        ],
      ),
    );

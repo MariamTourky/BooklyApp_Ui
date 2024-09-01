@@ -1,15 +1,13 @@
 import 'package:flutter/cupertino.dart';
 
-import 'BestSellerListViewItem.dart';
+import '../../../../home/Presentation/Views/Widgets/BestSellerListViewItem.dart';
 
-class BestSellerListView extends StatelessWidget {
-  const BestSellerListView({super.key});
+class SearchResultListView extends StatelessWidget {
+  const SearchResultListView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      shrinkWrap: true, // for customScrollView to take the size of all childern when we not using SliverFillRemaining
-      physics: const NeverScrollableScrollPhysics(),// for customScrollView
       padding: EdgeInsets.zero,
       itemCount: 10,
       itemBuilder: (context, index) {
